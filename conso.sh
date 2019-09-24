@@ -15,7 +15,7 @@ SILO_STOCK=`wget -qO- stdout $IP_CHAUDIERE:8080/user/var/40/10201/0/0/12015|grep
 #
 # Recuperation Temperature exterieure
 #
-TEMP_EXT=`wget -qO- stdout 192.168.1.180:8080/user/var/120/10101/12095/0/1071|grep "/user/var/120/10101/12095/0/1071"|awk '{print $3}'|sed -e "s/strValue=\"//"|sed -e "s/\"//"`
+TEMP_EXT=`wget -qO- stdout $IP_CHAUDIERE:8080/user/var/120/10101/12095/0/1071|grep "/user/var/120/10101/12095/0/1071"|awk '{print $3}'|sed -e "s/strValue=\"//"|sed -e "s/\"//"`
 
 DATE_JOUR=`date +"%d-%m-%Y"`
 
