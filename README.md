@@ -5,4 +5,5 @@ Ces scripts impliquent que les webservices soient activés sur la chaudière ETA
 
 Script 1 : conso.sh   Permet de récupérer la consomation en pellet de la chaudière toute les 24H.
                       Ce script est fait pour tourner sous Linux ou tout aute OS avec un shell bash.
+                      Il est necessaire d avoir un silo exterieur dans cette version.
            
