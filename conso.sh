@@ -30,7 +30,7 @@ then
 #
 # Le silo a ete remplis
 #
-        SILO_USAGE="0"
+        SILO_USAGE="-1"
 
 else
 #
